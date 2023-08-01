@@ -5,6 +5,6 @@ function reverseWords(){
 function reverse_Words(sentence){
     const array = sentence.split(" ");
     const reverseArray = array.reverse();
-    const reverseSentence = reverseArray.join();
+    const reverseSentence = reverseArray.join(" ");
     return reverseSentence;
 }
