@@ -11,6 +11,6 @@ function findMissingNum(){
       .split(",") // Split the input string by commas to get individual numbers
       .map((num) => parseInt(num.trim(), 10)); // Convert each string number to an actual number
 
-    const missingNumberFromArray = logic(inputArray);
+    const missingNumberFromArray = findMissingNumberGauss(inputArray);
     document.getElementById("output").innerHTML = missingNumberFromArray;
 }
