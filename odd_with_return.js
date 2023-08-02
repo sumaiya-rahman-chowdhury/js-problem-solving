@@ -1,9 +1,11 @@
-function odd(a){
+function Checkodd(a){
     if(a%2 == 1){
-        console.log(`${a}` + " Number is Odd")
+       return "Odd";
     }
     else {
-        console.log(`${a}` +" "  + "is not Odd")
+       return "Even"
     }
 }
-odd(30);
+
+var result = Checkodd(30);
+console.log(result);
