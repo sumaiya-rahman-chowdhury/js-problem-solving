@@ -11,6 +11,7 @@ function findVowel (s){
         if(char === "a" ||char === "e" ||char === "i" ||char === "u" ||char === "o" )
         {
             vowel++;
+            vowelArray.push(char);
         }
         else if(char !== " "){
             consonent++;
