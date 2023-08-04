@@ -18,7 +18,7 @@ function findLeapYear(array) {
     for (let i = 0; i <= array.length; i++) {
         if (array[i] % 4 === 0 && (array[i] % 100 !== 0 || array[i] % 400 === 0)) {
             leapyr.push(array[i]);
-
+        
         }
     }
     return leapyr;
