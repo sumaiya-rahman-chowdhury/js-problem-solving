@@ -16,6 +16,6 @@ function onlyPositive(array){
 }
 
 
-const mixedArray = [5, 0, 12, -8, 15, -10, 20, -3]; 
+const mixedArray = [5, 0, 12,8,9,99,99999,999999, -8, 15, -10, 20, -3]; 
 const result = onlyPositive(mixedArray);
 console.log(result.join(" "));
