@@ -10,5 +10,6 @@ const arrayOfObjects = [
 for(let i=0;i<arrayOfObjects.length;i++){
 //   console.log(arrayOfObjects[i].age) 
   sum +=  arrayOfObjects[i].age ;
+console.log(`My Name is ${arrayOfObjects[i].name} and Bhara Hoise ${arrayOfObjects[i].age}`)
 }
-  console.log(sum)
+  console.log(`Total Bhara is ${sum}`)
